@@ -6,6 +6,13 @@
 Portal del PDI de la ETSIT desde el que pueden acceder a todas las aplicaciones disponibles, estando añadida la funcion de SSO para no tener que hacer login cada vez que cambian entre aplicaciones.
 El portal a su vez es desde donde se sirven al resto de aplicaciones del portal, la libreria javascript que permite crear el menu lateral en el resto de aplicaciones
 
+## Ejecución
+El proyecto esta desarrollado en node, para poder correrlo continuadamente hemos usado la libreria forever
+
+```
+forever start app.js
+``
+
 ## Menu Lateral
 A nivel de /portal-pas estan disponibles los ficheros javascript que sirven los menus laterales, desde dichos ficheros redirige haciendo SSO al resto de aplicaciones del portal y permite hacer log out en todas las aplicaciones a la vez
 
