@@ -6,6 +6,16 @@ body {
 a {
   color: #00B7FF;
 }
+
+#banner{
+  background-color: #FF0000;
+  margin-bottom: 10px;
+}
+
+#titulo-banner{
+  text-align: center;
+}
+
 #main-header {
   background-color:#4664A2;
 }
