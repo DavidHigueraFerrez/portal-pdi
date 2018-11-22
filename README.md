@@ -11,7 +11,7 @@ El proyecto esta desarrollado en node, para poder correrlo continuadamente hemos
 
 ```
 forever start app.js
-``
+```
 
 ## Menu Lateral
 A nivel de /portal-pas estan disponibles los ficheros javascript que sirven los menus laterales, desde dichos ficheros redirige haciendo SSO al resto de aplicaciones del portal y permite hacer log out en todas las aplicaciones a la vez
