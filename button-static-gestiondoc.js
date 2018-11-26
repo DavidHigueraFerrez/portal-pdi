@@ -77,7 +77,7 @@ function closeNav06c978e7c5f7f7cac4f30b0f194ad065536a72ed020b2f322f16e44f40300e0
     document.getElementById("06c978e7c5f7f7cac4f30b0f194ad065536a72ed020b2f322f16e44f40300e05").style.width = "0";
 }
 
-function dibujarmenulateral(id){
+function dibujarmenulateral(id,logoutContext){
     console.log(id);
     document.getElementById(id).innerHTML = a;
     document.getElementById("closeButton6966dbce83d6bd9a2c367f1d2b0bbf25").href = logoutContext;
