@@ -14,10 +14,15 @@ forever start app.js
 ```
 
 ## Menu Lateral
-A nivel de /portal-pas estan disponibles los ficheros javascript que sirven los menus laterales, desde dichos ficheros redirige haciendo SSO al resto de aplicaciones del portal y permite hacer log out en todas las aplicaciones a la vez
+A nivel de /portal-pdi estan disponibles los ficheros javascript que sirven los menus laterales, desde dichos ficheros redirige haciendo SSO al resto de aplicaciones del portal y permite hacer log out en todas las aplicaciones a la vez
 
 #### Ficheros button-static-[aplicacion].js
 Los ficheros javascript que siguen este nombre son los menus laterales preparados para las aplicaciones configurados para el CSS de cada aplicacion. 
+
+### Actualmente disponibles
+menu lateral para aplicacion de gestion docente en https://dev.etsit.upm.es/portal-pdi/static-button-intercontacta
+menu lateral para aplicacion de parking https://dev.etsit.upm.es/portal-pdi/static-button-parking
+
 Se pueden insertar en las aplicaciones mediante las siguientes instrucciones
 
 ### Insertar Menu Lateral en el resto de aplicaciones
