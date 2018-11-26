@@ -63,7 +63,7 @@ let a =
 '  <a href="https://appsrv.etsit.upm.es/ofic-inter/home.htm">Aplicacion Internacional</a>'+
 '  <a href="#">Listin Telefonico</a>'+
 '  <hr>'+
-'  <a href="/progdoc/logout">Cerrar Sesion</a>'+
+'  <a href="#" id="closeButton6966dbce83d6bd9a2c367f1d2b0bbf25">Cerrar Sesion</a>'+
 '</div>'+
 ''+
 '<span class="open" style="font-size:30px;cursor:pointer" onclick="openNav06c978e7c5f7f7cac4f30b0f194ad065536a72ed020b2f322f16e44f40300e05()">☰</span>'+
@@ -80,4 +80,5 @@ function closeNav06c978e7c5f7f7cac4f30b0f194ad065536a72ed020b2f322f16e44f40300e0
 function dibujarmenulateral(id){
     console.log(id);
     document.getElementById(id).innerHTML = a;
+    document.getElementById("closeButton6966dbce83d6bd9a2c367f1d2b0bbf25").href = logoutContext;
 }
