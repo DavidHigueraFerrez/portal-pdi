@@ -17,7 +17,7 @@ forever start app.js
 A nivel de /portal-pdi estan disponibles los ficheros javascript que sirven los menus laterales, desde dichos ficheros redirige haciendo SSO al resto de aplicaciones del portal y permite hacer log out en todas las aplicaciones a la vez
 
 #### Ficheros button-static-[aplicacion].js
-Los ficheros javascript que siguen este nombre son los menus laterales preparados para las aplicaciones configurados para el CSS de cada aplicacion. 
+Los ficheros javascript que siguen este nombre son los menus laterales preparados para las aplicaciones configurados para el CSS de cada aplicacion, se debe eliminar el boton de logout debido a que en el menu lateral estara el boton de cerrar sesion del portal. 
 
 ### Actualmente disponibles
 menu lateral para aplicacion de gestion docente en https://dev.etsit.upm.es/portal-pdi/static-button-intercontacta
@@ -42,10 +42,11 @@ Ejemplo
  <div id="buttonStatic"></div>
 ```
 
-3º Llamar a la funcion dibujarMenuLateral("buttonStatic"); indicando el id del div donde quieres añadir el menu.
+3º Llamar a la funcion dibujarMenuLateral("buttonStatic"); indicando el id del div donde quieres añadir el menu. Ademas debes cambiar "contexto-logout-cas" por la ruta de contexto de logout que tenias donde tenias antes el boton de cerrar sesion.
+
 ```
 $(document).ready(function(){
-    dibujarmenulateral("buttonStatic");
+    dibujarmenulateral("buttonStatic","contexto-logout-cas");
 });
 ```
 
